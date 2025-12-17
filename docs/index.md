@@ -12,7 +12,7 @@ hero:
  
 # 右边图片
   image:
-    src: /sq.svg
+    src: /logo.png
     alt: VitePress
     
     
