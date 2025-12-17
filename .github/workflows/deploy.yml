@@ -9,19 +9,21 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      # 1. 拉取代码（升级到最新版，兼容性更好）
+      - uses: actions/checkout@v4
+      # 2. 配置 Node 环境（建议升级到 18+/20+，16 已停更）
+      - uses: actions/setup-node@v4
         with:
-          node-version: 16
-      - run: npm i pnpm -g
+          node-version: 18  # 推荐 18 或 20，适配最新 VitePress
+          cache: 'npm'      # 缓存 npm 依赖，加速构建（可选但推荐）
+      # 3. 安装依赖（--frozen-lockfile 确保依赖版本和 lock 文件一致）
       - run: npm install --frozen-lockfile
-
+      # 4. 构建文档（必须加 run，npm 自定义脚本的标准写法）
       - name: Build
-        run: npm docs:build
-
+        run: npm run docs:build
+      # 5. 部署到 GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
-
