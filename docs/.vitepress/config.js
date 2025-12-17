@@ -1,7 +1,7 @@
 export default {
     title: '毕业设计の技术文档', // 博客的标题
     description: '我是李超水，这是我的个人博客', // 博客的介绍
-    base: '/techlog/', // 如果想用 https://mlyz.wdy.github.io/blog/ 访问，那么这句话必填
+    base: '/blog/', // 如果想用 https://mlyz.wdy.github.io/blog/ 访问，那么这句话必填
     themeConfig: {
         logo: "/images/logo.png", // 页面上显示的logo
         // 页面右上角的导航（只要是在右上角的都在这里
