@@ -17,7 +17,10 @@ jobs:
         with:
           node-version: 20.x
       - run: npm install --frozen-lockfile
-
+      - name: Install dependencies
+        run: npm install --force  # 强制重装依赖，避免缓存
+      - name: Clean VitePress cache
+        run: rm -rf .vitepress/cache  # 清空VitePress构建缓存
       - name: Build
         run: npm run build
 
