@@ -5,9 +5,9 @@ hero:
 # 主标题
   name: 自动化の学习记录
 #   副标题
-  text: VitePress + Vue 搭建
+  text: PLC | 上位机 | 视觉
 #   内容介绍
-  tagline: JavaScript Html CSS ThreeJs Uniapp Echarts ...
+  tagline: 从装配电工到电气工程师的成长过程
  
  
 # 右边图片
