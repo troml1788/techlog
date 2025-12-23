@@ -146,8 +146,8 @@ export default {
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "1", link: "/articles/read/books/notes/book001/note001" },
-                                { text: "2", link: "/articles/read/books/notes/book001/note002" },
+                                { text: "1", link: "/articles/read/notes/book001/note001" },
+                                { text: "2", link: "/articles/read/notes/book001/note002" },
                             ]
                         },
                     ],
@@ -160,14 +160,14 @@ export default {
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
-                        { text: "为什么看这本书?", link: "/articles/read/books/book001" },
+                        { text: "为什么看这本书?", link: "/articles/read/books/book002" },
                         {
                             text: "本书摘要", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "1", link: "/articles/read/books/notes/book001/note001" },
-                                { text: "2", link: "/articles/read/books/notes/book001/note002" },
+                                { text: "1", link: "/articles/read/notes/book002/note001" },
+                                { text: "2", link: "/articles/read/notes/book002/note002" },
                             ]
                         },
                     ],
@@ -180,14 +180,14 @@ export default {
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
-                        { text: "为什么看这本书?", link: "/articles/read/books/book001" },
+                        { text: "为什么看这本书?", link: "/articles/read/books/book003" },
                         {
                             text: "本书摘要", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "1", link: "/articles/read/books/notes/book001/note001" },
-                                { text: "2", link: "/articles/read/books/notes/book001/note002" },
+                                { text: "1", link: "/articles/read/notes/book003/note001" },
+                                { text: "2", link: "/articles/read/notes/book003/note002" },
                             ]
                         },
                     ],
