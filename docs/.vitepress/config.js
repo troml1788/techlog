@@ -11,7 +11,7 @@ export default {
             { text: "api文档", link: "/articles/api/api-docs" },
             { text: "亮点功能", link: "/articles/features/features-docs" },
             { text: "效果演示", link: "/articles/demo/demo-docs" },
-            { text: "文献综述", link: "/articles/review/review-docs" },
+            { text: "读书摘要", link: "/articles/read/read-docs" },
             { text: "我的博客", link: "/articles/blog/blog-docs" },
             { text: "代码仓库", link: "/articles/code/code.docs" },
             {
@@ -96,21 +96,103 @@ export default {
                     ],
                 },
             ],
-            "/articles/uniapp/": [
+            // "/articles/read/": [
+            //     //基础下拉菜单单元--开始
+            //     {
+            //         text: "当下的力量",
+            //         collapsible: true, // 开启折叠（下拉）功能
+            //         collapsed: true,    // 默认折叠（可选，不写默认展开）
+            //         items: [
+            //             { text: "为什么看这本书?", link: "/articles/read/books/book1" },
+            //             { text: "本书摘要", link: "/articles/read/books/notes/note1" },
+            //         ],
+            //     },
+            //     //基础单元--结尾符号
+
+            //     //基础下拉菜单单元--开始
+            //     {
+            //         text: "与神对话",
+            //         collapsible: true, // 开启折叠（下拉）功能
+            //         collapsed: true,    // 默认折叠（可选，不写默认展开）
+            //         items: [
+            //             { text: "为什么看这本书?", link: "/articles/PLC/learn/learn001" },
+            //             { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/learn002" },
+            //         ],
+            //     },
+            //     //基础单元--结尾符号
+            //     //基础下拉菜单单元--开始
+            //     {
+            //         text: "纳瓦尔宝典",
+            //         collapsible: true, // 开启折叠（下拉）功能
+            //         collapsed: true,    // 默认折叠（可选，不写默认展开）
+            //         items: [
+            //             { text: "为什么看这本书?", link: "/articles/PLC/learn/learn001" },
+            //             { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/learn002" },
+            //         ],
+            //     },
+            //     //基础单元--结尾符号
+            // ],
+            "/articles/read/": [
+
+                //基本读书记录单元-----开始
                 {
-                    text: "基础",
+                    text: "当下的力量",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
                     items: [
-                    ],
-                },
-                {
-                    text: "代码段",
-                    items: [
+                        { text: "为什么看这本书?", link: "/articles/read/books/book001" },
                         {
-                            text: "一键登录",
-                            link: "/articles/uniapp/一键登录",
-                        }
+                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "1", link: "/articles/read/books/notes/book001/note001" },
+                                { text: "2", link: "/articles/read/books/notes/book001/note002" },
+                            ]
+                        },
                     ],
                 },
+                //基本读书记录单元-----结尾
+
+                //基本读书记录单元-----开始
+                {
+                    text: "与神对话",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        { text: "为什么看这本书?", link: "/articles/read/books/book001" },
+                        {
+                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "1", link: "/articles/read/books/notes/book001/note001" },
+                                { text: "2", link: "/articles/read/books/notes/book001/note002" },
+                            ]
+                        },
+                    ],
+                },
+                //基本读书记录单元-----结尾
+
+                //基本读书记录单元-----开始
+                {
+                    text: "纳瓦尔宝典",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        { text: "为什么看这本书?", link: "/articles/read/books/book001" },
+                        {
+                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "1", link: "/articles/read/books/notes/book001/note001" },
+                                { text: "2", link: "/articles/read/books/notes/book001/note002" },
+                            ]
+                        },
+                    ],
+                },
+                //基本读书记录单元-----结尾
             ],
             "/articles/javaScript-core/": [
                 {
