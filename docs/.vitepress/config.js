@@ -29,17 +29,18 @@ export default {
             //前端文档（下拉菜单分组效果）
             "/articles/PLC": [
                 {
-                    text: "汇川中型PLC",
+                    text: "汇川",
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
                         // 支持多级嵌套（二级下拉）
                         {
-                            text: "1200&1500硬件介绍", // 二级分组（嵌套下拉）
+                            text: "汇川PLC", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            
                             items: [
-                                { text: "SMART和博图对比区别", link: "/articles/PLC/learn/siemens/learn001" },
+                                { text: "汇川PLC阵容", link: "/articles/PLC/learn/inovance/index" },
                                 { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/siemens/learn002" },
                             ]
                         },
