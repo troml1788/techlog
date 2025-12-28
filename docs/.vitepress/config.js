@@ -28,16 +28,43 @@ export default {
 
             //前端文档（下拉菜单分组效果）
             "/articles/PLC": [
-                // //基础下拉菜单单元
-                // {
-                //     text: "西门子S7-1200&1500硬件介绍",
-                //     collapsible: true, // 开启折叠（下拉）功能
-                //     collapsed: true,    // 默认折叠（可选，不写默认展开）
-                //     items: [
-                //         { text: "SMART和博图的区别", link: "/articles/PLC/learn/learn001" },
-                //         { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/learn002" },
-                //     ],
-                // },
+                {
+                    text: "汇川中型PLC",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        // 支持多级嵌套（二级下拉）
+                        {
+                            text: "1200&1500硬件介绍", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "SMART和博图对比区别", link: "/articles/PLC/learn/siemens/learn001" },
+                                { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/siemens/learn002" },
+                            ]
+                        },
+                        {
+                            text: "软件安装", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "软件安装", link: "/articles/PLC/learn/siemens/learn003" },
+                                { text: "软件基础操作", link: "/articles/PLC/learn/siemens/learn004" },
+                            ]
+                        },
+                        // 支持多级嵌套（二级下拉）
+                        {
+                            text: "数据类型|置位复位|沿|DB块", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "数据类型", link: "/articles/PLC/learn/siemens/learn005" },
+                                { text: "数据块DB讲解", link: "/articles/PLC/learn/siemens/learn006" },
+                                { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
+                            ]
+                        }
+                    ],
+                },
                 {
                     text: "西门子S7-1200",
                     collapsible: true, // 开启下拉折叠
@@ -49,8 +76,8 @@ export default {
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "SMART和博图对比区别", link: "/articles/PLC/learn/learn001" },
-                                { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/learn002" },
+                                { text: "SMART和博图对比区别", link: "/articles/PLC/learn/siemens/learn001" },
+                                { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/siemens/learn002" },
                             ]
                         },
                         {
@@ -58,8 +85,8 @@ export default {
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "软件安装", link: "/articles/PLC/learn/learn003" },
-                                { text: "软件基础操作", link: "/articles/PLC/learn/learn004" },
+                                { text: "软件安装", link: "/articles/PLC/learn/siemens/learn003" },
+                                { text: "软件基础操作", link: "/articles/PLC/learn/siemens/learn004" },
                             ]
                         },
                         // 支持多级嵌套（二级下拉）
@@ -68,9 +95,9 @@ export default {
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "数据类型", link: "/articles/PLC/learn/learn005" },
-                                { text: "数据块DB讲解", link: "/articles/PLC/learn/learn006" },
-                                { text: "置位复位和沿指令", link: "/articles/PLC/learn/learn007" },
+                                { text: "数据类型", link: "/articles/PLC/learn/siemens/learn005" },
+                                { text: "数据块DB讲解", link: "/articles/PLC/learn/siemens/learn006" },
+                                { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
                             ]
                         }
                     ],

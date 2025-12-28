@@ -20,8 +20,8 @@ hero:
     # 按钮主题
     - theme: brand
     # 按钮文字
-      text: 快速开始
-      link: /markdown-examples
+      text: 成长计划
+      link: /articles/quick/index
     - theme: alt
       text: vitepress官方
       link: https://vitepress.dev/
