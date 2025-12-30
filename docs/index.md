@@ -23,8 +23,8 @@ hero:
       text: 成长计划
       link: /articles/quick/index
     - theme: alt
-      text: vitepress官方
-      link: https://vitepress.dev/
+      text: 现场问题
+      link: /articles/scene/index
  
 # 特色
 features:

@@ -6,8 +6,9 @@ export default {
         logo: "/images/logo.png", // 页面上显示的logo
         // 页面右上角的导航（只要是在右上角的都在这里
         nav: [
+            // { text: "现场问题", link: "/articles/scene/scene-docs" },
             { text: "PLC学习笔记", link: "/articles/PLC/PLC-docs" },
-            { text: "后端文档", link: "/articles/backend/backend-docs" },
+
             { text: "api文档", link: "/articles/api/api-docs" },
             { text: "亮点功能", link: "/articles/features/features-docs" },
             { text: "效果演示", link: "/articles/demo/demo-docs" },
@@ -25,7 +26,43 @@ export default {
         ],
         //这个是点击右上角对应的导航区后，左侧的侧边栏
         sidebar: { // 侧边栏，可以分组,
-
+            //前端文档（下拉菜单分组效果）
+            "/articles/scene": [
+                {
+                    text: "联赢-客户现场报告",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        // 支持多级嵌套（二级下拉）
+                        {
+                            text: "刚出新手村的大boss", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            link: "/articles/scene/evens/even001",
+                        },
+                        {
+                            text: "软件安装", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "软件安装", link: "/articles/PLC/learn/siemens/learn003" },
+                                { text: "软件基础操作", link: "/articles/PLC/learn/siemens/learn004" },
+                            ]
+                        },
+                        // 支持多级嵌套（二级下拉）
+                        {
+                            text: "数据类型|置位复位|沿|DB块", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "数据类型", link: "/articles/PLC/learn/siemens/learn005" },
+                                { text: "数据块DB讲解", link: "/articles/PLC/learn/siemens/learn006" },
+                                { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
+                            ]
+                        }
+                    ],
+                },
+            ],
             //前端文档（下拉菜单分组效果）
             "/articles/PLC": [
                 {
@@ -38,7 +75,7 @@ export default {
                             text: "汇川PLC", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
-                            
+
                             items: [
                                 { text: "汇川PLC阵容", link: "/articles/PLC/learn/inovance/index" },
                                 { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/siemens/learn002" },
