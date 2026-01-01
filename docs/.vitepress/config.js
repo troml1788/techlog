@@ -78,6 +78,7 @@ export default {
 
                             items: [
                                 { text: "汇川PLC阵容", link: "/articles/PLC/learn/inovance/learn/learn20251231" },
+                                { text: "H5U系列PLC硬件结构", link: "/articles/PLC/learn/inovance/learn/learn20260101" },
                                 { text: "1200&1500硬件讲解", link: "/articles/PLC/learn/siemens/learn002" },
                             ]
                         },
