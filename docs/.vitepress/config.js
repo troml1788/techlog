@@ -72,7 +72,7 @@ export default {
                     items: [
                         // 支持多级嵌套（二级下拉）
                         {
-                            text: "汇川PLC", // 二级分组（嵌套下拉）
+                            text: "基本常识", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
 
@@ -80,26 +80,26 @@ export default {
                                 { text: "汇川PLC阵容", link: "/articles/PLC/learn/inovance/learn/learn2025123101" },
                                 { text: "H5U系列PLC硬件结构", link: "/articles/PLC/learn/inovance/learn/learn2026010101" },
                                 { text: "H5U系列PLC端子分布图", link: "/articles/PLC/learn/inovance/learn/learn2026010201" },
-                                { text: "PLC实物接线", link: "/articles/PLC/learn/inovance/learn/learn2026010202" },
-                                { text: "PLC输出单元", link: "/articles/PLC/learn/inovance/learn/learn2026010203" },
+                                { text: "H5U系列PLC实物接线", link: "/articles/PLC/learn/inovance/learn/learn2026010202" },
+                                { text: "H5U系列PLC输出单元", link: "/articles/PLC/learn/inovance/learn/learn2026010203" },
                             ]
                         },
                         {
-                            text: "软件安装", // 二级分组（嵌套下拉）
+                            text: "相关软件", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "软件安装", link: "/articles/PLC/learn/siemens/learn003" },
-                                { text: "软件基础操作", link: "/articles/PLC/learn/siemens/learn004" },
+                                { text: "软件安装&基础操作", link: "/articles/PLC/learn/inovance/learn/learn2026010204" },
+                                { text: "通讯&扩展&基础指令", link: "/articles/PLC/learn/inovance/learn/learn2026010205" },
                             ]
                         },
                         // 支持多级嵌套（二级下拉）
                         {
-                            text: "数据类型|置位复位|沿|DB块", // 二级分组（嵌套下拉）
+                            text: "PLC控制程序设计", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "数据类型", link: "/articles/PLC/learn/siemens/learn005" },
+                                { text: "三大经典电路", link: "/articles/PLC/learn/inovance/learn/learn2026010206" },
                                 { text: "数据块DB讲解", link: "/articles/PLC/learn/siemens/learn006" },
                                 { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
                             ]
