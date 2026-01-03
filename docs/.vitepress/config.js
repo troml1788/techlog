@@ -9,7 +9,7 @@ export default {
             // { text: "现场问题", link: "/articles/scene/scene-docs" },
             { text: "PLC学习笔记", link: "/articles/PLC/PLC-docs" },
 
-            { text: "api文档", link: "/articles/api/api-docs" },
+            { text: "伺服&步进", link: "/articles/api/api-docs" },
             { text: "亮点功能", link: "/articles/features/features-docs" },
             { text: "效果演示", link: "/articles/demo/demo-docs" },
             { text: "读书摘要", link: "/articles/read/read-docs" },
@@ -66,7 +66,7 @@ export default {
             //前端文档（下拉菜单分组效果）
             "/articles/PLC": [
                 {
-                    text: "汇川",
+                    text: "汇川家族",
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
@@ -111,7 +111,16 @@ export default {
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
                                 { text: "触摸屏仿真", link: "/articles/PLC/learn/inovance/learn/learn2026010207" },
-                                { text: "数据块DB讲解", link: "/articles/PLC/learn/siemens/learn006" },
+                            ]
+                        },
+                        // 支持多级嵌套（二级下拉）
+                        {
+                            text: "如何编程？", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "顺启逆停实战", link: "/articles/PLC/learn/inovance/learn/learn2026010301" },
+                                { text: "抢答灯实战", link: "/articles/PLC/learn/siemens/learn006" },
                                 { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
                             ]
                         },
