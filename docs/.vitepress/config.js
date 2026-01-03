@@ -110,7 +110,7 @@ export default {
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "三大经典电路", link: "/articles/PLC/learn/inovance/learn/learn2026010207" },
+                                { text: "触摸屏仿真", link: "/articles/PLC/learn/inovance/learn/learn2026010207" },
                                 { text: "数据块DB讲解", link: "/articles/PLC/learn/siemens/learn006" },
                                 { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
                             ]
