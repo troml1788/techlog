@@ -115,12 +115,12 @@ export default {
                         },
                         // 支持多级嵌套（二级下拉）
                         {
-                            text: "如何编程？", // 二级分组（嵌套下拉）
+                            text: "练习小实战", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "顺启逆停实战", link: "/articles/PLC/learn/inovance/learn/learn2026010301" },
-                                { text: "抢答灯实战", link: "/articles/PLC/learn/siemens/learn006" },
+                                { text: "水泵+电机顺启逆停实战", link: "/articles/PLC/learn/inovance/learn/learn2026010301" },
+                                { text: "抢答灯实战", link: "/articles/PLC/learn/inovance/learn/learn2026010302" },
                                 { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
                             ]
                         },
