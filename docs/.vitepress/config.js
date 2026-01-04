@@ -132,7 +132,7 @@ export default {
                             items: [
                                 { text: "PLC工作原理&工作过程&双线圈冲突", link: "/articles/PLC/learn/inovance/learn/learn2026010401" },
                                 { text: "虚拟继电器M", link: "/articles/PLC/learn/inovance/learn/learn2026010402" },
-                                { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
+                                { text: "上升沿&下降沿", link: "/articles/PLC/learn/inovance/learn/learn2026010403" },
                             ]
                         },
                     ],
