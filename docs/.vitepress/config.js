@@ -124,6 +124,17 @@ export default {
                                 { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
                             ]
                         },
+                        // 支持多级嵌套（二级下拉）
+                        {
+                            text: "理论知识", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "PLC工作原理&工作过程&双线圈冲突", link: "/articles/PLC/learn/inovance/learn/learn2026010401" },
+                                { text: "抢答灯实战", link: "/articles/PLC/learn/inovance/learn/learn2026010302" },
+                                { text: "置位复位和沿指令", link: "/articles/PLC/learn/siemens/learn007" },
+                            ]
+                        },
                     ],
                 },
                 {
