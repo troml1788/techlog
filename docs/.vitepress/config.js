@@ -133,6 +133,7 @@ export default {
                                 { text: "PLC工作原理&工作过程&双线圈冲突", link: "/articles/PLC/learn/inovance/learn/learn2026010401" },
                                 { text: "虚拟继电器M", link: "/articles/PLC/learn/inovance/learn/learn2026010402" },
                                 { text: "上升沿&下降沿", link: "/articles/PLC/learn/inovance/learn/learn2026010403" },
+                                { text: "上升沿应用-单按钮启停", link: "/articles/PLC/learn/inovance/learn/learn2026010601" },
                             ]
                         },
                     ],
