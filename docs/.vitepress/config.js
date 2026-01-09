@@ -135,6 +135,7 @@ export default {
                                 { text: "上升沿&下降沿", link: "/articles/PLC/learn/inovance/learn/learn2026010403" },
                                 { text: "上升沿应用-单按钮启停", link: "/articles/PLC/learn/inovance/learn/learn2026010601" },
                                 { text: "复位与置位", link: "/articles/PLC/learn/inovance/learn/learn2026010901" },
+                                { text: "定时器", link: "/articles/PLC/learn/inovance/learn/learn2026010902" },
                             ]
                         },
                     ],
