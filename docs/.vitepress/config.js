@@ -124,6 +124,7 @@ export default {
                                 { text: "星三角降压启动", link: "/articles/PLC/learn/inovance/learn/learn2026011001" },
                                 { text: "小灯闪烁", link: "/articles/PLC/learn/inovance/learn/learn2026011101" },
                                 { text: "喷泉控制", link: "/articles/PLC/learn/inovance/learn/learn2026011102" },
+                                { text: "交通灯练习", link: "/articles/PLC/learn/inovance/learn/learn2026011105" },
                             ]
                         },
                         // 支持多级嵌套（二级下拉）
@@ -139,6 +140,8 @@ export default {
                                 { text: "复位与置位", link: "/articles/PLC/learn/inovance/learn/learn2026010901" },
                                 { text: "定时器", link: "/articles/PLC/learn/inovance/learn/learn2026010902" },
                                 { text: "顺启逆停-计时器补充", link: "/articles/PLC/learn/inovance/learn/learn2026011002" },
+                                { text: "软元件特性及用途", link: "/articles/PLC/learn/inovance/learn/learn2026011103" },
+                                { text: "变量及数据与比较", link: "/articles/PLC/learn/inovance/learn/learn2026011104" },
                                 
                             ]
                         },
