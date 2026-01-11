@@ -122,7 +122,8 @@ export default {
                                 { text: "水泵+电机顺启逆停实战", link: "/articles/PLC/learn/inovance/learn/learn2026010301" },
                                 { text: "抢答灯实战", link: "/articles/PLC/learn/inovance/learn/learn2026010302" },
                                 { text: "星三角降压启动", link: "/articles/PLC/learn/inovance/learn/learn2026011001" },
-                                
+                                { text: "小灯闪烁", link: "/articles/PLC/learn/inovance/learn/learn2026011101" },
+                                { text: "喷泉控制", link: "/articles/PLC/learn/inovance/learn/learn2026011102" },
                             ]
                         },
                         // 支持多级嵌套（二级下拉）
@@ -138,6 +139,7 @@ export default {
                                 { text: "复位与置位", link: "/articles/PLC/learn/inovance/learn/learn2026010901" },
                                 { text: "定时器", link: "/articles/PLC/learn/inovance/learn/learn2026010902" },
                                 { text: "顺启逆停-计时器补充", link: "/articles/PLC/learn/inovance/learn/learn2026011002" },
+                                
                             ]
                         },
                     ],
