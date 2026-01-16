@@ -10,7 +10,7 @@ export default {
             { text: "PLC学习笔记", link: "/articles/PLC/PLC-docs" },
 
             { text: "伺服&步进", link: "/articles/api/api-docs" },
-            { text: "亮点功能", link: "/articles/features/features-docs" },
+            { text: "触摸屏", link: "/articles/touch/touch-docs" },
             { text: "效果演示", link: "/articles/demo/demo-docs" },
             { text: "读书摘要", link: "/articles/read/read-docs" },
             { text: "我的博客", link: "/articles/blog/blog-docs" },
@@ -142,6 +142,7 @@ export default {
                                 { text: "顺启逆停-计时器补充", link: "/articles/PLC/learn/inovance/learn/learn2026011002" },
                                 { text: "软元件特性及用途", link: "/articles/PLC/learn/inovance/learn/learn2026011103" },
                                 { text: "变量及数据与比较", link: "/articles/PLC/learn/inovance/learn/learn2026011104" },
+                                { text: "运算指令", link: "/articles/PLC/learn/inovance/learn/learn2026011501" },
                                 
                             ]
                         },
