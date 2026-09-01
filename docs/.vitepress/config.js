@@ -319,9 +319,9 @@ export default {
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
                                 { text: "Plc.Result", link: "/articles/compute/cs/Base/Result/Result" },
-                                { text: "Automation.Core.Plc.ResultT", link: "/articles/compute/cs/Base/Result/ResultT" },
-                                { text: "Automation.Core.Plc.IPlcClient", link: "/articles/compute/cs/Base/Plc/IPlcClient" },
-                                { text: "Automation.Core.Plc.PlcAddress", link: "/articles/compute/cs/Base/Plc/PlcAddress" },
+                                { text: "Plc.ResultT", link: "/articles/compute/cs/Base/Result/ResultT" },
+                                { text: "Plc.IPlcClient", link: "/articles/compute/cs/Base/Plc/IPlcClient" },
+                                { text: "Plc.PlcAddress", link: "/articles/compute/cs/Base/Plc/PlcAddress" },
                             ]
                         },
                         {
