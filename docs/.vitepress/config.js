@@ -306,13 +306,13 @@ export default {
             ],
             "/articles/compute/": [
 
-                //基本读书记录单元-----开始
+                //ByteQuestor入门案例-----开始
                 {
                     text: "ByteQuestor入门案例",
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
-                        { text: "ReadCodeDemo", link: "/articles/compute/cs/ABmenu001" },
+                        { text: "ReadCodeDemo案例介绍", link: "/articles/compute/cs/ABmenu001" },
                         {
                             text: "Automation.Core", // 二级分组（嵌套下拉）
                             collapsible: true,
@@ -347,15 +347,15 @@ export default {
                         },
                     ],
                 },
-                //基本读书记录单元-----结尾
+                //ByteQuestor入门案例-----结尾
 
-                //基本读书记录单元-----开始
+                //Bytequestor-----开始
                 {
-                    text: "与神对话",
+                    text: "Bytequestor",
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
-                        { text: "为什么看这本书?", link: "/articles/read/books/book002" },
+                        { text: "Bytequestor介绍", link: "/articles/read/books/book002" },
                         {
                             text: "本书摘要", // 二级分组（嵌套下拉）
                             collapsible: true,
@@ -367,7 +367,7 @@ export default {
                         },
                     ],
                 },
-                //基本读书记录单元-----结尾
+                //Bytequestor-----结尾
 
                 //基本读书记录单元-----开始
                 {
