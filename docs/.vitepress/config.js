@@ -11,7 +11,7 @@ export default {
 
             { text: "伺服&步进", link: "/articles/api/api-docs" },
             { text: "触摸屏", link: "/articles/touch/touch-docs" },
-            { text: "效果演示", link: "/articles/demo/demo-docs" },
+            { text: "ByteQuestor", link: "/articles/compute/compute-docs" },
             { text: "读书摘要", link: "/articles/read/read-docs" },
             { text: "我的博客", link: "/articles/blog/blog-docs" },
             { text: "代码仓库", link: "/articles/code/code.docs" },
@@ -251,6 +251,68 @@ export default {
                     collapsed: false,  // 默认展开
                     items: [
                         { text: "为什么看这本书?", link: "/articles/read/books/book001" },
+                        {
+                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "1", link: "/articles/read/notes/book001/note001" },
+                                { text: "2", link: "/articles/read/notes/book001/note002" },
+                            ]
+                        },
+                    ],
+                },
+                //基本读书记录单元-----结尾
+
+                //基本读书记录单元-----开始
+                {
+                    text: "与神对话",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        { text: "为什么看这本书?", link: "/articles/read/books/book002" },
+                        {
+                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "1", link: "/articles/read/notes/book002/note001" },
+                                { text: "2", link: "/articles/read/notes/book002/note002" },
+                            ]
+                        },
+                    ],
+                },
+                //基本读书记录单元-----结尾
+
+                //基本读书记录单元-----开始
+                {
+                    text: "纳瓦尔宝典",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        { text: "为什么看这本书?", link: "/articles/read/books/book003" },
+                        {
+                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "1", link: "/articles/read/notes/book003/note001" },
+                                { text: "2", link: "/articles/read/notes/book003/note002" },
+                            ]
+                        },
+                    ],
+                },
+                //基本读书记录单元-----结尾
+            ],
+            "/articles/compute/": [
+
+                //基本读书记录单元-----开始
+                {
+                    text: "入门案例",
+                    collapsible: true, // 开启下拉折叠
+                    collapsed: false,  // 默认展开
+                    items: [
+                        { text: "读取PLC结构体", link: "/articles/compute/cs/ABmenu001.md" },
                         {
                             text: "本书摘要", // 二级分组（嵌套下拉）
                             collapsible: true,
