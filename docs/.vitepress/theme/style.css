@@ -1,7 +1,8 @@
 @media (min-width: 1440px) {
   .VPSidebar {
-    padding-left: 70px !important;
-    /* width: 300 !important; */
+    padding-left: 50px !important;
+    padding-right: 50px;
+    width: auto !important;
   }
 }
 
@@ -16,4 +17,19 @@
 /* Chrome / Safari / 新版 Edge */
 .VPSidebar::-webkit-scrollbar {
   display: none;
+}
+
+/* 适配桌面端（≥960px）：修改导航标题左侧留白 */
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .title {
+    /* 改成你想要的数值，0 = 完全贴左，20px = 保留少量边距更美观 */
+    padding-left: 20px !important;
+  }
+}
+
+/* 适配大屏（≥1440px）：覆盖默认的动态计算值 */
+@media (min-width: 1440px) {
+  .VPNavBar.has-sidebar .title {
+    padding-left: 20px !important;
+  }
 }

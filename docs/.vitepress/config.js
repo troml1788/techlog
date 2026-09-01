@@ -329,11 +329,12 @@ export default {
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
+                                { text: "Address.SiemensPlcClient", link: "/articles/compute/cs/Implementation/SiemensPlcClient" },
                                 { text: "Address.SiemensAddressParser", link: "/articles/compute/cs/Implementation/Address/SiemensAddressParser" },
                                 { text: "Readers.S7BitReader", link: "/articles/compute/cs/Implementation/Readers/S7BitReader" },
                                 { text: "Readers.S7IntReader", link: "/articles/compute/cs/Implementation/Readers/S7IntReader" },
                                 { text: "Readers.S7StringReader", link: "/articles/compute/cs/Implementation/Readers/S7StringReader" },
-                                { text: "Address.SiemensPlcClient", link: "/articles/compute/cs/Implementation/SiemensPlcClient" },
+
                             ]
                         },
                         {
@@ -342,7 +343,7 @@ export default {
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
                                 { text: "Models.BatteryData", link: "/articles/compute/cs/Business/Models/BatteryData" },
-                                { text: "Models.Services", link: "/articles/compute/cs/Business/Services/BatteryDataParser" },
+                                { text: "Services.BatteryDataParser", link: "/articles/compute/cs/Business/Services/BatteryDataParser" },
                             ]
                         },
                     ],
