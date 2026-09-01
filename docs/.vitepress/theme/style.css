@@ -1,3 +1,19 @@
-:root {
-  --vp-sidebar-width: 340px; /*直接改这里，全站生效*/
+@media (min-width: 1440px) {
+  .VPSidebar {
+    padding-left: 70px !important;
+    /* width: 300 !important; */
+  }
+}
+
+/* 隐藏侧边栏滚动条 */
+.VPSidebar {
+  /* Firefox 浏览器 */
+  scrollbar-width: none;
+  /* IE / 旧版 Edge */
+  -ms-overflow-style: none;
+}
+
+/* Chrome / Safari / 新版 Edge */
+.VPSidebar::-webkit-scrollbar {
+  display: none;
 }
