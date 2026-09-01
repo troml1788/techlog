@@ -308,18 +308,41 @@ export default {
 
                 //基本读书记录单元-----开始
                 {
-                    text: "入门案例",
+                    text: "ByteQuestor入门案例",
                     collapsible: true, // 开启下拉折叠
                     collapsed: false,  // 默认展开
                     items: [
-                        { text: "读取PLC结构体", link: "/articles/compute/cs/ABmenu001.md" },
+                        { text: "ReadCodeDemo", link: "/articles/compute/cs/ABmenu001" },
                         {
-                            text: "本书摘要", // 二级分组（嵌套下拉）
+                            text: "Automation.Core", // 二级分组（嵌套下拉）
                             collapsible: true,
                             collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
                             items: [
-                                { text: "1", link: "/articles/read/notes/book001/note001" },
-                                { text: "2", link: "/articles/read/notes/book001/note002" },
+                                { text: "Plc.Result", link: "/articles/compute/cs/Base/Result/Result" },
+                                { text: "Automation.Core.Plc.ResultT", link: "/articles/compute/cs/Base/Result/ResultT" },
+                                { text: "Automation.Core.Plc.IPlcClient", link: "/articles/compute/cs/Base/Plc/IPlcClient" },
+                                { text: "Automation.Core.Plc.PlcAddress", link: "/articles/compute/cs/Base/Plc/PlcAddress" },
+                            ]
+                        },
+                        {
+                            text: "Automation.Plc.Siemens", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "Address.SiemensAddressParser", link: "/articles/compute/cs/Implementation/Address/SiemensAddressParser" },
+                                { text: "Readers.S7BitReader", link: "/articles/compute/cs/Implementation/Readers/S7BitReader" },
+                                { text: "Readers.S7IntReader", link: "/articles/compute/cs/Implementation/Readers/S7IntReader" },
+                                { text: "Readers.S7StringReader", link: "/articles/compute/cs/Implementation/Readers/S7StringReader" },
+                                { text: "Address.SiemensPlcClient", link: "/articles/compute/cs/Implementation/SiemensPlcClient" },
+                            ]
+                        },
+                        {
+                            text: "ReadCodeDemo", // 二级分组（嵌套下拉）
+                            collapsible: true,
+                            collapsed: true,    // 如果不加这个，二级菜单就会受父组件影响默认展开，但是无法关闭，仅展示级联效果
+                            items: [
+                                { text: "Models.BatteryData", link: "/articles/compute/cs/Business/Models/BatteryData" },
+                                { text: "Models.Services", link: "/articles/compute/cs/Business/Services/BatteryDataParser" },
                             ]
                         },
                     ],
