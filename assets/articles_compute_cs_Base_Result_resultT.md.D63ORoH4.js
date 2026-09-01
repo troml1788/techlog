@@ -27,4 +27,4 @@ import{_ as i,c as a,o as n,ae as h}from"./chunks/framework.PNVe5cA1.js";const d
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">            Exception </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> exception</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">        };</span></span>
 <span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">     }</span></span>
-<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div>`,1)])])}const y=i(k,[["render",l]]);export{d as __pageData,y as default};
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">}</span></span></code></pre></div><p>2</p>`,2)])])}const y=i(k,[["render",l]]);export{d as __pageData,y as default};
