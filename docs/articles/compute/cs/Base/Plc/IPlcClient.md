@@ -1,31 +1,20 @@
-
-
+::: tip 入门案例
+**这里是基础案例示例，不参与后续更新**。
+:::
 ```cs
-namespace ByteQuestor.Automation.Core.Results;
-
-public class Result
+using ByteQuestor.Automation.Core.Results;
+namespace ByteQuestor.Automation.Core.Plc;
+public interface IPlcClient
 {
-    public bool Success { get; init; }
-    public string Message { get; init; } = string.Empty;
-    public Exception? Exception { get; init; }
-    public static Result Ok(String message = "")
-    {
-        return new Result
-        {
-            Success = true,
-            Message = message
-        };
-    }
-    public static Result Fail(
-        string message,
-        Exception ? exception = null)
-    {
-        return new Result
-        {
-            Success = false,
-            Message = message,
-            Exception = exception
-        };
-    }
+    bool IsConnected { get; }
+    Task<Result> ConnectAsync();
+    Task<Result> DisconnectAsync();
+    Task<Result<byte[]>> ReadAsync(
+        PlcAddress address,
+        int length
+        );
+    Task<Result> WriteBytesAsync(
+        PlcAddress address,
+        byte[] data);
 }
 ```
