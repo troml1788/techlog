@@ -364,6 +364,13 @@ export default {
                             items: [
                                 { text: "1", link: "/articles/read/notes/book002/note001" },
                                 { text: "2", link: "/articles/read/notes/book002/note002" },
+                                {
+                                    text: "类方法",
+                                    items: [
+                                    { text: "泛型详解", link: "/articles/demo3level/csharp/generic" },
+                                    { text: "Result封装实战", link: "/articles/demo3level/csharp/result" },
+                                    ]
+                                }
                             ]
                         },
                     ],

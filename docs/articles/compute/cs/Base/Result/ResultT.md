@@ -1,4 +1,6 @@
 
+`Result<T>` 多了一个 Data 属性用来承载业务数据
+
 ```cs
 namespace ByteQuestor.Automation.Core.Results;
 public class Result<T>
