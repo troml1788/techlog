@@ -41,6 +41,9 @@ INT解析
 # 二、先看最终项目结构
 
 目前是：
+
+![image-20260904183420486](./ABmenu001.assets/ReadCodeDemoAll.svg)
+
 ```text
 ByteQuestor.Automation
 │
