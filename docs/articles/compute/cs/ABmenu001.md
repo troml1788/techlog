@@ -1,3 +1,24 @@
+# 一、总工程包图
+![image-20260904183420486](./ABmenu001.assets/ReadCodeDemoAll.svg)
+# 二、Core 核心库类图
+![image-20260904183420486](./ABmenu001.assets/Core 核心库类图.svg)
+# 三、PLC 通讯模块类图
+![image-20260904183420486](./ABmenu001.assets/PLC 通讯模块类图.svg)
+# 四、Battery 业务读取类图
+![image-20260904183420486](./ABmenu001.assets/Battery 业务读取类图.svg)
+# 五、实时轮询 + 数据变化检测类图
+![image-20260904183420486](./ABmenu001.assets/实时轮询 + 数据变化检测类图.svg)
+# 六、数据变化检测类图
+![image-20260904183420486](./ABmenu001.assets/数据变化检测类图.svg)
+# 七、数据上报类图
+![image-20260904183420486](./ABmenu001.assets/数据上报类图.svg)
+# 八、连接恢复模块类图
+![image-20260904183420486](./ABmenu001.assets/连接恢复模块类图.svg)
+# 九、最终系统总类关系图
+![image-20260904183420486](./ABmenu001.assets/最终系统总类关系图.svg)
+
+
+
 # 一、这个案例要做什么
 不是只解决这一次 `Battery_Data`。
 而是做一个以后可以反复使用的：
@@ -42,7 +63,7 @@ INT解析
 
 目前是：
 
-![image-20260904183420486](./ABmenu001.assets/ReadCodeDemoAll.svg)
+
 
 ```text
 ByteQuestor.Automation
